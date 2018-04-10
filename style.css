@@ -1768,7 +1768,10 @@ body {
   text-decoration: none; }
   /* line 21, sass/layout/_header.scss */
   #branding img {
-    display: block; }
+    display: block; 
+    width: 80px;
+  }
+
   /* line 22, sass/layout/_header.scss */
   #branding .site-description {
     display: block;
