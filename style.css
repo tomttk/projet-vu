@@ -1,9 +1,15 @@
-/*!
- * Project_Name: Themezy Band Template
- * Author: Themezy
- * Email: info@themezy.com
- * URL: http://themezy.com
- */
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+/*
+.sidebar {
+  position: fixed;
+}
+régler le fixed pour qu'il s'arrête avant le footer
+*/
+
 /*=========================================== 
  * Importing CSS Libraries
  *===========================================*/
@@ -2532,7 +2538,8 @@ body {
   margin-bottom: 50px;
   color: white;
   font-size: 18px;
-  font-size: 1.125em; }
+  font-size: 1.125em;
+  text-align: justify; }
 /* line 27, sass/pages/_post.scss */
 .content p {
   margin: 0 0 40px; }
