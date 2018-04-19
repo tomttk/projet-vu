@@ -280,7 +280,7 @@ body {
 .button {
   display: inline-block;
   padding: 10px 30px;
-  background-color: #fd5927;
+  background-color: #CF27FF;
   border: none;
   color: white;
   text-decoration: none;
@@ -289,13 +289,13 @@ body {
           transition: .3s ease; }
   /* line 11, sass/libs/_component.scss */
   .button:hover {
-    background-color: #fd805a; }
+    background-color: #CF70FF; }
   /* line 15, sass/libs/_component.scss */
   .button.primary {
-    background-color: #fd5927; }
+    background-color: #CF27FF; }
     /* line 17, sass/libs/_component.scss */
     .button.primary:hover {
-      background-color: #fd805a; }
+      background-color: #CF70FF; }
   /* line 21, sass/libs/_component.scss */
   .button.secondary {
     background-color: #848484;
@@ -308,14 +308,14 @@ body {
     padding: 5px 10px; }
   /* line 33, sass/libs/_component.scss */
   .button.cut-corner {
-    background: -webkit-linear-gradient(90deg, #fd5927, #fd5927) top left, -webkit-linear-gradient(90deg, #fd5927, #fd5927) top right, -webkit-linear-gradient(135deg, transparent 10px, #fd5927 0) bottom right, -webkit-linear-gradient(90deg, #fd5927, #fd5927) bottom left;
-    background: linear-gradient(0deg, #fd5927, #fd5927) top left, linear-gradient(0deg, #fd5927, #fd5927) top right, linear-gradient(315deg, transparent 10px, #fd5927 0) bottom right, linear-gradient(0deg, #fd5927, #fd5927) bottom left;
+    background: -webkit-linear-gradient(90deg, #CF27FF, #CF27FF) top left, -webkit-linear-gradient(90deg, #CF27FF, #CF27FF) top right, -webkit-linear-gradient(135deg, transparent 10px, #CF27FF 0) bottom right, -webkit-linear-gradient(90deg, #CF27FF, #CF27FF) bottom left;
+    background: linear-gradient(0deg, #CF27FF, #CF27FF) top left, linear-gradient(0deg, #CF27FF, #CF27FF) top right, linear-gradient(315deg, transparent 10px, #CF27FF 0) bottom right, linear-gradient(0deg, #CF27FF, #CF27FF) bottom left;
     background-size: 55% 55%;
     background-repeat: no-repeat; }
     /* line 41, sass/libs/_component.scss */
     .button.cut-corner:hover {
-      background: -webkit-linear-gradient(90deg, #fd805a, #fd805a) top left, -webkit-linear-gradient(90deg, #fd805a, #fd805a) top right, -webkit-linear-gradient(135deg, transparent 10px, #fd805a 0) bottom right, -webkit-linear-gradient(90deg, #fd805a, #fd805a) bottom left;
-      background: linear-gradient(0deg, #fd805a, #fd805a) top left, linear-gradient(0deg, #fd805a, #fd805a) top right, linear-gradient(315deg, transparent 10px, #fd805a 0) bottom right, linear-gradient(0deg, #fd805a, #fd805a) bottom left;
+      background: -webkit-linear-gradient(90deg, #CF70FF, #) top left, -webkit-linear-gradient(90deg, #CF70FF, #CF70FF) top right, -webkit-linear-gradient(135deg, transparent 10px, #CF70FF 0) bottom right, -webkit-linear-gradient(90deg, #CF70FF, #CF70FF) bottom left;
+      background: linear-gradient(0deg, #CF70FF, #CF70FF) top left, linear-gradient(0deg, #CF70FF, #CF70FF) top right, linear-gradient(315deg, transparent 10px, #CF70FF 0) bottom right, linear-gradient(0deg, #CF70FF, #CF70FF) bottom left;
       background-size: 55% 55%;
       background-repeat: no-repeat; }
     /* line 50, sass/libs/_component.scss */
@@ -1799,7 +1799,7 @@ body {
     display: none; }
     /* line 40, sass/layout/_header.scss */
     .main-navigation .toggle-menu:hover, .main-navigation .toggle-menu:active, .main-navigation .toggle-menu.active {
-      color: #fd5927; }
+      color: #CF27FF; }
     @media screen and (max-width: 640px) {
       /* line 30, sass/layout/_header.scss */
       .main-navigation .toggle-menu {
@@ -1833,7 +1833,7 @@ body {
         opacity: 0;
         border-left: 4px solid transparent;
         border-right: 4px solid transparent;
-        border-bottom: 4px solid #fd5927;
+        border-bottom: 4px solid #CF27FF;
         -webkit-transition: .3s ease;
                 transition: .3s ease; }
       /* line 75, sass/layout/_header.scss */
@@ -1844,7 +1844,7 @@ body {
         opacity: 1; }
       /* line 80, sass/layout/_header.scss */
       .main-navigation .menu .menu-item:hover a, .main-navigation .menu .menu-item.current-menu-item a {
-        color: #fd5927; }
+        color: #CF27FF; }
     /* line 84, sass/layout/_header.scss */
     .main-navigation .menu a {
       display: block;
@@ -1889,10 +1889,10 @@ body {
       background: #191919; }
       /* line 124, sass/layout/_header.scss */
       .mobile-menu .menu a:hover {
-        color: #fd5927; }
+        color: #CF27FF; }
     /* line 126, sass/layout/_header.scss */
     .mobile-menu .menu .current-menu-item a {
-      color: #fd5927; }
+      color: #CF27FF; }
 
 /* 
  * 	Core Owl Carousel CSS File
@@ -1980,9 +1980,9 @@ body {
     left: 0;
     top: 0;
     width: 70px;
-    background: #fd5927;
-    background: -webkit-linear-gradient(90deg, #fd5927, #fd5927) top left, -webkit-linear-gradient(90deg, #fd5927, #fd5927) top right, -webkit-linear-gradient(135deg, transparent 10px, #fd5927 0) bottom right, -webkit-linear-gradient(90deg, #fd5927, #fd5927) bottom left;
-    background: linear-gradient(0deg, #fd5927, #fd5927) top left, linear-gradient(0deg, #fd5927, #fd5927) top right, linear-gradient(315deg, transparent 10px, #fd5927 0) bottom right, linear-gradient(0deg, #fd5927, #fd5927) bottom left;
+    background: #CF27FF;
+    background: -webkit-linear-gradient(90deg, #CF27FF, #CF27FF) top left, -webkit-linear-gradient(90deg, #CF27FF, #CF27FF) top right, -webkit-linear-gradient(135deg, transparent 10px, #CF27FF 0) bottom right, -webkit-linear-gradient(90deg, #CF27FF, #CF27FF) bottom left;
+    background: linear-gradient(0deg, #CF27FF, #CF27FF) top left, linear-gradient(0deg, #CF27FF, #CF27FF) top right, linear-gradient(315deg, transparent 10px, #CF27FF 0) bottom right, linear-gradient(0deg, #CF27FF, #CF27FF) bottom left;
     background-size: 55% 55%;
     background-repeat: no-repeat;
     color: white;
@@ -2024,13 +2024,13 @@ body {
               transition: .3s ease; }
       /* line 127, sass/layout/_content.scss */
       .content .post .entry-title a:hover {
-        color: #fd5927; }
+        color: #CF27FF; }
   /* line 130, sass/layout/_content.scss */
   .content .post p {
     margin-bottom: 10px; }
   /* line 131, sass/layout/_content.scss */
   .content .post a {
-    color: #fd5927;
+    color: #CF27FF;
     text-decoration: none; }
 
 /* line 138, sass/layout/_content.scss */
@@ -2063,7 +2063,7 @@ body {
   .contact-form input[type="submit"] {
     float: right;
     width: auto;
-    background-color: #fd5927; }
+    background-color: #CF27FF; }
   /* line 159, sass/layout/_content.scss */
   .contact-form textarea {
     min-height: 150px; }
@@ -2072,7 +2072,7 @@ body {
 .map-wrapper address {
   font-style: normal;
   background: #353535;
-  border-bottom: 3px solid #fd5927;
+  border-bottom: 3px solid #CF27FF;
   padding: 10px;
   color: white; }
   /* line 171, sass/layout/_content.scss */
@@ -2083,7 +2083,7 @@ body {
     text-decoration: none; }
     /* line 176, sass/layout/_content.scss */
     .map-wrapper address a:hover {
-      color: #fd5927; }
+      color: #CF27FF; }
 
 /* line 2, sass/layout/_sidebar.scss */
 .widget .widget-title {
@@ -2130,7 +2130,7 @@ body {
     font-weight: 400; }
     /* line 48, sass/layout/_sidebar.scss */
     .discography-list .detail h3 a {
-      color: #fd5927;
+      color: #CF27FF;
       text-decoration: none; }
   /* line 53, sass/layout/_sidebar.scss */
   .discography-list .detail .year {
@@ -2266,7 +2266,7 @@ body {
               transition-delay: .3s; }
     /* line 36, sass/pages/_homepage.scss */
     .slider .slides .slide-subtitle {
-      color: #fd5927;
+      color: #CF27FF;
       font-size: 48px;
       font-size: 3em;
       font-weight: 300;
@@ -2354,7 +2354,7 @@ body {
     /* line 116, sass/pages/_homepage.scss */
     .quote-slider blockquote cite {
       display: block;
-      color: #fd5927;
+      color: #CF27FF;
       font-size: 24px;
       font-size: 1.5em;
       font-weight: 100;
@@ -2388,7 +2388,7 @@ body {
               transition: .3s ease; }
       /* line 145, sass/pages/_homepage.scss */
       .quote-slider .flex-direction-nav a:hover {
-        background-color: #fd5927; }
+        background-color: #CF27FF; }
 
 /* line 152, sass/pages/_homepage.scss */
 .section-title {
@@ -2440,7 +2440,7 @@ body {
             transition: .3s ease; }
     /* line 186, sass/pages/_homepage.scss */
     .event-nav a:hover {
-      background-color: #fd5927; }
+      background-color: #CF27FF; }
 
 /* line 191, sass/pages/_homepage.scss */
 .event {
@@ -2452,9 +2452,9 @@ body {
     left: 0;
     top: 0;
     width: 70px;
-    background: #fd5927;
-    background: -webkit-linear-gradient(90deg, #fd5927, #fd5927) top left, -webkit-linear-gradient(90deg, #fd5927, #fd5927) top right, -webkit-linear-gradient(135deg, transparent 10px, #fd5927 0) bottom right, -webkit-linear-gradient(90deg, #fd5927, #fd5927) bottom left;
-    background: linear-gradient(0deg, #fd5927, #fd5927) top left, linear-gradient(0deg, #fd5927, #fd5927) top right, linear-gradient(315deg, transparent 10px, #fd5927 0) bottom right, linear-gradient(0deg, #fd5927, #fd5927) bottom left;
+    background: #CF27FF;
+    background: -webkit-linear-gradient(90deg, #CF27FF, #CF27FF) top left, -webkit-linear-gradient(90deg, #CF27FF, #CF27FF) top right, -webkit-linear-gradient(135deg, transparent 10px, #CF27FF 0) bottom right, -webkit-linear-gradient(90deg, #CF27FF, #CF27FF) bottom left;
+    background: linear-gradient(0deg, #CF27FF, #CF27FF) top left, linear-gradient(0deg, #CF27FF, #CF27FF) top right, linear-gradient(315deg, transparent 10px, #CF27FF 0) bottom right, linear-gradient(0deg, #CF27FF, #CF27FF) bottom left;
     background-size: 55% 55%;
     background-repeat: no-repeat;
     color: white;
@@ -2553,11 +2553,11 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border: 1px solid #fd5927;
+  border: 1px solid #CF27FF;
   padding: 10px 20px;
   border-radius: 0;
   background: none;
-  color: #fd5927;
+  color: #CF27FF;
   font-weight: 400;
   text-transform: uppercase;
   font-size: 12px;
@@ -2592,8 +2592,8 @@ body {
     margin-right: 10px; }
     /* line 42, sass/pages/_gallery.scss */
     .filter-links a.current, .filter-links a:hover {
-      border: 1px solid #fd5927;
-      color: #fd5927; }
+      border: 1px solid #CF27FF;
+      color: #CF27FF; }
     @media screen and (max-width: 480px) {
       /* line 27, sass/pages/_gallery.scss */
       .filter-links a {
@@ -2669,7 +2669,7 @@ body {
     height: 0; }
   /* line 15, sass/pages/_download.scss */
   .item .item-title {
-    color: #fd5927;
+    color: #CF27FF;
     font-weight: 400;
     margin: 0; }
   /* line 20, sass/pages/_download.scss */
@@ -2700,6 +2700,6 @@ body {
               transition: .3s ease; }
       /* line 43, sass/pages/_download.scss */
       .item .social-share a:hover {
-        color: #fd5927; }
+        color: #CF27FF; }
 
 /*# sourceMappingURL=style.css.map */
