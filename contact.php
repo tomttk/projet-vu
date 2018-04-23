@@ -67,28 +67,9 @@
 									 <input required type="email" name="email" class="form-control" id="inputemail" value="<?php echo isset($_SESSION['inputs']['email'])? $_SESSION['inputs']['email'] : ''; ?>">
 									 <label for="inputmessage">Votre message</label>
 									  <textarea required id="inputmessage" name="message" class="form-control"><?php echo isset($_SESSION['inputs']['message'])? $_SESSION['inputs']['message'] : ''; ?></textarea>
-									  <div class="col-md-12">
-								  <div class="checkbox">
-								  <label for="checkspam">
-								  <input type="checkbox" name="antispam" id="checkspam">Je suis un spammer et je l'assume!
-								  </label>
-								  </div>									
+									  <div class="col-md-12">								
 									<input type="submit" value="Envoyer">
 								</form>
-							</div>
-							<div class="col-md-6">
-								<div class="map-wrapper">
-									<div class="map"></div>
-									<address>
-										<div class="row">
-										
-											<div class="col-sm-6">
-												<a href="mailto:villejuifunderground@gmail.com">villejuifunderground@gmail.com</a> <br>
-												<a href="tel:532930098891">(532) 930 098 891</a>
-											</div>
-										</div>
-									</address>
-								</div>
 							</div>
 						</div>
 					</div>
