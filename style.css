@@ -3,6 +3,10 @@
   color: white;
 }
 
+#logoFooter {
+  width: 150px;
+  height: 150px;
+}
 /*
 .sidebar {
   position: fixed;
